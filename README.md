@@ -1,2 +1,1 @@
-# Kush-CV
-CV on Google Site
+# CV Pages

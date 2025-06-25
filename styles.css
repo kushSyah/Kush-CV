@@ -18,8 +18,13 @@ body {
 }
 
 .photo {
-    width: 85px;
-    height: 113px;
+    width: 130px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .link {
@@ -27,7 +32,6 @@ body {
     align-items: center;
     text-decoration: none;
     color: black;
-    margin: 5px;
 }
 
 .icon {

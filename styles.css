@@ -169,6 +169,24 @@ li {
   width: 100px;
 }
 
+.photo-with-caption {
+  display: inline-block;   /* keeps caption width same as image */
+}
+
+.photo-with-caption img {
+  width: 300px;        /* set image width as needed */
+  height: auto;
+  display: block;
+}
+
+.photo-with-caption .caption {
+  text-align: center;
+  max-width: 300px;      /* center text within image width */
+  margin-top: 0.5rem;
+  font-size: 0.65rem;
+  color: #111;
+}
+
 .image-wrapper img {
   object-fit: cover;
   width: 100%;
